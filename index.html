@@ -5,21 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project</title>
+    <!-- style-css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
         integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./images/favicon.png"> 
+    <title>project</title>
 </head>
 
 <body>
-    <!-- header -->
+    <!-- Header -->
     <header>
-        <!-- menu -->
+        <!-- Menu -->
         <section class="menu">
-            <img src="images/logo_only.png" class="logo">
+            <a href="index.html"><img src="./images/logo_only.png" class="logo"></a>
             <!-- nav -->
             <nav>
+                <!-- Hamburger-menu -->
+                <div id="menu-hamburger">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu-hamburger1">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
                 <div class="l-nav">
                     <ul>
                         <li><a href="#home">home</a></li>
@@ -51,11 +68,11 @@
             </nav>
         </section>
     </header>
-    <!-- main -->
+    <!-- Main -->
     <main>
-        <!-- home -->
+        <!-- Home -->
         <section id="home">
-            <!-- background-home -->
+            <!-- Background-home -->
             <section class="home-background">
                 <div class="home-left-back">
                     <img src="images/main-enfold.png" class="main-enfold">
@@ -64,7 +81,7 @@
                     <img src="images/main-parallax.png" class="main-parallax">
                 </div>
             </section>
-            <!-- box-home -->
+            <!-- Box-home -->
             <section class="home-box">
                 <div class="left-box">
                     <h3>Planning <span class="special"> & </span> Consulting</h3>
@@ -98,7 +115,7 @@
                 </div>
             </section>
         </section>
-        <!-- service -->
+        <!-- Service -->
         <section id="service">
             <div class="service-background">
                 <h1>Say hello to a
@@ -106,9 +123,9 @@
                 </h1>
             </div>
         </section>
-        <!-- about-us -->
+        <!-- About-us -->
         <section id="about">
-            <!-- about-top -->
+            <!-- About-top -->
             <section class="about-top">
                 <section class="about-top-left">
                     <div class="about-top-content">
@@ -139,7 +156,7 @@
                     </div>
                 </section>
             </section>
-            <!-- about-center -->
+            <!-- About-center -->
             <section class="about-center">
                 <section class="about-center-left">
                     <div class="about-center-img">
@@ -168,7 +185,7 @@
                     </div>
                 </section>
             </section>
-            <!-- about-bottom -->
+            <!-- About-bottom -->
             <section class="about-bottom">
                 <div class="about-bottom-content">
                     <div class="about-bottom-content-box">
@@ -181,7 +198,7 @@
                 </div>
                 <div class="about-bottom-back"></div>
             </section>
-            <!-- portfolio -->
+            <!-- Portfolio -->
             <section id="portfolio">
                 <div class="mokup">
                     <div class="parent-img">
@@ -256,9 +273,9 @@
                     </div>
                 </div>
             </section>
-            <!-- contact -->
+            <!-- Contact -->
             <section id="contact">
-                <img src="images/amr-taha-UOMrO-JN-XQ-unsplash-845x684.jpg" class="contact-back">
+                <div class="contact-back"></div>
                 <div class="contact-right">
                     <img src="images/parallax_light.png" class="contact-logo">
                     <div class="form-contact">
@@ -273,14 +290,14 @@
                     </div>
                 </div>
             </section>
-            <!-- scroll -->
+            <!-- Scroll -->
             <section>
                 <a href="#home" class="scroll-box">
                    <i class="fa fa-angle-up"></i>
                 </a>
             </section>
     </main>
-    <!-- footer -->
+    <!-- Footer -->
     <footer class="footer">
         <span class="copy">
             &copy;copyright- 
